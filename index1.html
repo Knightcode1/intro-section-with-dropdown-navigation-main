@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="header">
+      <a class="logo" href="#"><img src="images/logo.svg" alt="LOGO"/></a>
+
+      <img id="mobile-cta" class="mobile-menu" src="images/icon-menu.svg" alt="Open Navigation">
+
+        <nav>
+          <img id="mobile-exit" class="mobile-menu-exit" src="images/icon-close-menu.svg" alt="Close Navigation">
+
+          <ul class="primary-nav">
+            <li>Features <img class="arrow-up" src="images/icon-arrow-up.svg" alt="Arrow-up"><img class="arrow-down" src="images/icon-arrow-down.svg" alt="Arrow-down">
+              <div class="touchdown">
+                <ul class="touchdown1">
+                  <li><a href="#"><img src="images/icon-todo.svg" alt="Todo"/>Todo List</a></li>
+                  <li><a href="#"><img src="images/icon-calendar.svg" alt="Calendar"/>Calendar</a></li>
+                  <li><a href="#"><img src="images/icon-reminders.svg" alt="Reminders"/>Reminders</a></li>
+                  <li><a href="#"><img src="images/icon-planning.svg" alt="Planning"/>Planning</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>Company <img class="arrow-up" src="images/icon-arrow-up.svg" alt="Arrow-up"> <img class="arrow-down" src="images/icon-arrow-down.svg" alt="Arrow-down">
+              <div class="touchdown">
+                <ul class="touchdown1">
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+  
+          <ul class="secondary-nav">
+            <li><a href="#">Login</a></li>
+            <li class="register"><a href="#">Register</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="left-col">
+        <img class="hero-image-mobile" src="images/image-hero-mobile.png" alt="hero-mobile">
+        <h1 class="subhead">Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <a class="learn-more" href="#">Learn more</a>
+        <div class="client">
+          <img src="images/client-databiz.svg" alt="client-databiz">
+          <img class="audiophile" src="images/client-audiophile.svg" alt="client-audiophile">
+          <img src="images/client-meet.svg" alt="client-meet">
+          <img src="images/client-maker.svg" alt="client-maker">
+        </div>
+      </div>
+
+      <div class="right-col">
+        <img src="images/image-hero-desktop.png" alt="">
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Enoch</a>.
+    </div>
+
+    <script>
+
+      const mobileBtn = document.getElementById('mobile-cta')
+    </script>
+  </body>
+</html>
